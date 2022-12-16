@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;1,100&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 170px 28% 0 28%;
+  height: 280px;
+  text-align: center;
+  /* background-color: #fff; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  
+}
+.first{
+  width: 300px;
+  border:none;
+  padding: 8px;
+
+
+}
+.first input{
+  margin-top: 35px;
+  width: 250px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  text-size-adjust: 10px;
+
+}
+.first button{
+  margin-top: 9px;
+  padding: 7px;
+  width: 110px;
+  border-radius: 16px;
+  border:none;
+  background-color: #ff4b2b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.second{
+  width: 300px;
+  /* border:1px solid black;  */
+  background-color: #ff4b2b;
+  color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.second p{
+  margin: 15px;
+  font-family: 'Chivo Mono', monospace;
+}
+.second a{
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+
 }
